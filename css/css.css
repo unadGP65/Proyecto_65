@@ -63,11 +63,16 @@ body {
 
 .content{
     width:80%;
-    height:85%;
+    height:100%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     /* background-color: #B3B3B3; */
+}
+
+.perfil{
+    text-align: left;
+    margin: auto;
 }
 
 .cont_twitter {
@@ -86,6 +91,9 @@ body {
     font-family: 'Varela Round', sans-serif;
     font-size: 10px;
     background-color: #000000;
+    position: absolute; 
+    clear:both;
+    /* bottom: 0; */
 }
 
 /*  */
